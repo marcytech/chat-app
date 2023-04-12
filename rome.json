@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/rome/configuration_schema.json",
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "suspicious": {
+        "noCommentText": "warn"
+      }
+    }
+  },
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": false,
+    "indentStyle": "space",
+    "indentSize": 2,
+    "lineWidth": 90,
+    "ignore": []
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single",
+      "trailingComma": "all"
+    }
+  }
+}
